@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./queries-from-me.component.css']
 })
 export class QueriesFromMeComponent implements OnInit {
-
+  showNewQuery = false;
   constructor() { }
 
   ngOnInit() {

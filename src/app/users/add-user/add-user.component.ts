@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-add-user',
@@ -7,15 +7,8 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 })
 export class AddUserComponent implements OnInit {
 
-  @ViewChild('staticModal') modal:ElementRef;
-
   constructor() { }
 
   ngOnInit() {
   }
-
-  showModal() {
-      this.modal.show();
-  }
-
 }

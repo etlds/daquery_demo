@@ -236,3 +236,11 @@ body {
 .box.box-default {
     border-top-color: #d2d6de;
 }
+
+.mr-20{
+  margin-right: 20px;
+}
+
+.pointer {
+  cursor: pointer;
+}

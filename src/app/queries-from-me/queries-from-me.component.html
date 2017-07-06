@@ -7,9 +7,10 @@
   </div>
 
   <div class="row">
-    <div class="col-md-3">
-        <button class="btn btn-primary">New Query</button>
+    <div class="col-md-3 placeholder">
+        <button class="btn btn-primary" (click)="showNewQuery=!showNewQuery">New Query</button>
     </div>
   </div>
-  <app-queries-from-me-table></app-queries-from-me-table>
+  <app-new-query *ngIf="showNewQuery"></app-new-query>
+  <app-queries-from-me-list></app-queries-from-me-list>
 </div>
